@@ -1,0 +1,6 @@
+@BirdObservationsRest_HostAddress = http://localhost:5215
+
+GET {{BirdObservationsRest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdObservationsRest", "BirdObservationsRest\BirdObservationsRest.csproj", "{E7A3A940-B6C5-49E6-8DB8-D30208B40284}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7A3A940-B6C5-49E6-8DB8-D30208B40284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A3A940-B6C5-49E6-8DB8-D30208B40284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A3A940-B6C5-49E6-8DB8-D30208B40284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A3A940-B6C5-49E6-8DB8-D30208B40284}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9B89C35-FCF3-40BF-AF36-D3CA300DA87E}
+	EndGlobalSection
+EndGlobal
