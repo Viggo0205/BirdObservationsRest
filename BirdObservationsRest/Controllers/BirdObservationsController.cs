@@ -65,17 +65,19 @@ namespace BirdObservationsRest.Controllers
         }
 
 
+        // Delete api/birdobservations/{id}
+        // Sletter en birdobservation ud fra id
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [HttpDelete("{id}")]
         public ActionResult<BirdObservation> Delete(int id)
         {
-            if (_birdObservationsRepo.GetById(id) != null)
+            BirdObservation? deletedBirdObservation = _birdObservationsRepo.Delete(id);
+            if (deletedBirdObservation == null)
             {
-                _birdObservationsRepo.Delete(id);
-                return Ok(_birdObservationsRepo.GetById(id));
+                return NotFound();
             }
-            else return NotFound();
+            return Ok(deletedBirdObservation);
         }
     }
 }
